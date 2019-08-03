@@ -1,14 +1,26 @@
-import React from 'react';
+import React, { Component} from 'react';
 import './App.scss';
-import { Route, Switch } from "react-router-dom";
-import Home from "../../pages/Home";
+import NavBar from "../../Components/NavBar";
+import Video from "../../Components/Video";
+import Landing from "../../Components/Landing";
+import Cube from "../../Components/Cube";
+import TheSpiel from "../../Components/TheSpiel";
+import Contact from "../../Components/Contact";
 
-const App = () => (
-  <main>
-  <Switch>
-    <Route exact path="/" component={Home} />
-  </Switch>
-  </main>
-  );
 
+class App extends Component {
+
+  render() {
+    return (
+      <div className="overlayBlock">
+      <NavBar/>
+        <Video/>
+        <Landing/>
+        <Cube/>
+        <TheSpiel/>
+        <Contact/>
+      </div>
+    );
+  }
+}
 export default App;
