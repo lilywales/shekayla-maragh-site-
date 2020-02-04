@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 // import { ParallaxBanner, Parallax, Image } from 'react-scroll-parallax';
 import './landing.scss';
-import square from "./square.png";
-import r from "./r.png";
+import square from "./square.jpg";
+
 
 
 class Landing extends Component {
@@ -11,8 +11,8 @@ class Landing extends Component {
       <div className = 'container' >
         <div className='homeArtwok'>
           <img className="square" src={square} alt="" />
-          <img className="r" src={r} alt="" />
-        
+
+
         </div>
         <div className = 'homeTitles'>
           <h1 className = 'name' >Shekayla Maragh </h1>

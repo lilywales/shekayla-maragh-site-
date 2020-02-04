@@ -7,7 +7,9 @@ import Landing from "../../Components/Landing";
 import Cube from "../../Components/Cube";
 import Story from "../../Components/Story";
 import Quote from "../../Components/Quote";
+import Projects from "../../Components/Projects";
 import Contact from "../../Components/Contact";
+import Logos from "../../Components/Logos";
 
 
 
@@ -24,7 +26,9 @@ class App extends Component {
         <Story/>
         <Quote/>
         <Cube/>
+        <Projects/>
         <Contact/>
+        <Logos/>
       </div>
     );
   }
