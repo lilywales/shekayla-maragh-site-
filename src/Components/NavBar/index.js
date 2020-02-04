@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import { NavHashLink as NavLink } from 'react-router-hash-link';
-import Sticky from 'react-sticky-el';
 
 import './navbar.scss'
 
 class NavBar extends Component {
-
-
 
   scrollWithOffset = (el, offset) => {
     const elementPosition = el.offsetTop - offset;
@@ -21,12 +17,28 @@ class NavBar extends Component {
 
     return (
 
-    <div className='nav'>
-    <Sticky>
-        <NavLink className="nav-cube nav-text" scroll={el => this.scrollWithOffset(el, 150)} to="/#cube">CUBE</NavLink>
-        <NavLink className="nav-spiel nav-text" scroll={el => this.scrollWithOffset(el, 50)} to="/#the-spiel">The Spiel</NavLink>
-        <NavLink className="nav-contact nav-text" scroll={el => this.scrollWithOffset(el, 120)} to="/#contact">Contact</NavLink>
-    </Sticky>
+
+
+    <div >
+  <h4 className="menu">Menu</h4>
+
+<input id="burger" type="checkbox" style={{opacity: '0'}}/>
+
+<label for="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+
+<nav>
+  <ul>
+
+    <li><a href="#story">Story so far</a></li>
+    <li><a href="#cube">CUBE</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
       </div>
 
     );

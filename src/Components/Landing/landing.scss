@@ -1,22 +1,46 @@
 .container {
-  position: absolute;
-  height: 10%;
-  width: 60%;
-  left: 7%;
-  top: 7%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  // background-color: pink;
+}
 
+.homeArtwok {
+  position: absolute;
+  height: 40vh;
+  // background-color: aqua;
+  width: 60vw;
+}
+
+.homeTitles {
+  position: absolute;
+  height: 40vh;
+  // background-color: red;
+  width: 70vw;
+  top: 40%;
 }
 
 .name {
   position: absolute;
-  top: 7%;
-  left: 13%;
+  display: flex;
 
 }
 
-.title {
+.role {
   position: absolute;
-  top: 55%;
-  left: 13%;
+  display: flex;
+  top: 30%;
 
+
+}
+
+.square {
+  position: absolute;
+  opacity: 0;
+}
+
+.r {
+  position: absolute;
+  opacity: 0;
 }

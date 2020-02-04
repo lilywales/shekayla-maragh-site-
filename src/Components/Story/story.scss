@@ -1,0 +1,28 @@
+.story {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100%;
+    height: 100vh;
+      background-color: rgba(162, 191, 247,0.30);
+  }
+
+.storyTextBoxContainer {
+  position: absolute;
+    display: flex;
+    justify-content: center;
+  top:10%;
+  height: 80%;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.15);
+
+}
+
+.storyTextBox{
+  position: absolute;
+  height: 80%;
+  width: 90%;
+  margin-top: 5%;
+
+
+}

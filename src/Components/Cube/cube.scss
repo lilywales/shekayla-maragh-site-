@@ -1,7 +1,29 @@
 .cube {
-  position: relative;
-  top: 24%;
-  left: 13%;
-  width: 35%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      background-color: rgba(162, 191, 247,0.30)
+    }
+
+    .cubeTextBoxContainer {
+      position: absolute;
+        display: flex;
+        justify-content: center;
+      top:10%;
+      height: 80%;
+      width: 80%;
+      background-color: rgba(255, 255, 255, 0.15);
+
+    }
+
+.cubeTextBox {
+
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    margin-top: 5%;
+
+
 
 }

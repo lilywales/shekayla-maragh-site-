@@ -7,10 +7,7 @@ class Contact extends Component {
 
 
       <div id="contact" className='contact'>
-        <p>
-        <h2>Contact</h2>
-        email icon: shekayla.m@me.com
-        </p>
+
       </div>
 
   );
