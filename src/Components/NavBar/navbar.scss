@@ -115,3 +115,21 @@ input:checked ~ nav {
   right: 5%;
   top: 6.5%;
 }
+
+//phones
+@media only screen and (max-width: 600px) {
+  input + label span {
+
+    height: 2px;
+    width: 19px;
+    top: 29%;
+
+
+}
+  input + label {
+
+    right: 0%;
+
+}
+
+}

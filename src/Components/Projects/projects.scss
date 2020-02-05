@@ -60,3 +60,24 @@
   width:100%;
   opacity: 1;
 }
+//small phones
+@media only screen and (max-width: 600px) {
+
+  .flex-container > div {
+    // background-color: rgb(255, 194, 232);
+
+    margin: 3px;
+}
+
+.projects {
+
+    height: 170vh;
+
+  }
+
+
+
+
+
+
+}

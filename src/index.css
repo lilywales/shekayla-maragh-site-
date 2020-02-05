@@ -38,3 +38,12 @@ a {
 
 ul {
   list-style-type: circle; }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.6rem; }
+  h2, h3 {
+    font-size: 0.85rem; }
+  p, h4 {
+    font-size: 0.55rem;
+    font-weight: 400; } }
