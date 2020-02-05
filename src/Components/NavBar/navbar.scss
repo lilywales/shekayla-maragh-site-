@@ -116,7 +116,7 @@ input:checked ~ nav {
   top: 6.5%;
 }
 
-//phones
+//small phones
 @media only screen and (max-width: 600px) {
   input + label span {
 
@@ -132,4 +132,13 @@ input:checked ~ nav {
 
 }
 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 371px) {
+  .menu p {
+    top: 6%;
+    right: 2%;
+    font-size: 0.5rem
+  }
 }
