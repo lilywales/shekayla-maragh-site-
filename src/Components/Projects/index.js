@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 
-//
 import ameriie from "./AmeriieTour.png";
-import abian from "./ArtistCreditAbianRichards.jpg";
+import abian from "./ArtistCreditAbianRichards.png";
 import diaspora from "./DiasporaBritain.png";
 import glasto from "./Glastonbury.png";
 import ines from "./InesElsaDalalDiasporaBritain.png";
