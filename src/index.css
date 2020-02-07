@@ -49,7 +49,7 @@ ul {
     font-weight: 400; } }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 371px) {
+@media only screen and (min-width: 371px) and (max-width: 413px) {
   h1 {
     font-size: 2rem; }
   h2 {
@@ -59,9 +59,9 @@ ul {
     font-size: 1.1rem; }
   p, h4 {
     font-size: 0.65rem;
-    font-weight: 400; } }
+    font-weight: 600; } }
 
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 414px) and (max-width: 767px) {
   h1 {
     font-size: 2.2rem; }
   h2 {
@@ -71,4 +71,14 @@ ul {
     font-size: 1.2rem; }
   p {
     font-size: 0.75rem;
-    font-weight: 400; } }
+    font-weight: 600; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 3rem; }
+  h2 {
+    font-size: 1.5rem; }
+  h3 {
+    font-size: 1.5rem; }
+  p {
+    font-size: 1rem; } }
