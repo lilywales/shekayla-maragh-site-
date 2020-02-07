@@ -1,44 +1,37 @@
 .quote {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      height: 24vh;
-      // background-color: rgba(162, 191, 247,0.30);
-      background-color: rgb(255, 194, 232);
-    }
-
-    .quoteTextBoxContainer {
-      position: absolute;
-        display: flex;
-        justify-content: center;
-      top:5%;
-      height: 80%;
-      width: 80%;
-      // background-color: rgba(255, 255, 255, 0.15);
-
-    }
-
-.quoteTextBox {
-
-    position: absolute;
-    height: 80%;
-    width: 90%;
-    text-align:  center;
-
-
-
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 24vh;
+  // background-color: rgba(162, 191, 247,0.30);
+  background-color: rgb(255, 194, 232);
 }
 
- .quoteTextBox  h1 {
+.quoteTextBoxContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 5%;
+  height: 80%;
+  width: 80%;
+  // background-color: rgba(255, 255, 255, 0.15);
+}
+
+.quoteTextBox {
+  position: absolute;
+  height: 80%;
+  width: 90%;
+  text-align: center;
+}
+
+.quoteTextBox h1 {
   font-style: italic;
 }
 
 //small phones
 @media only screen and (max-width: 600px) {
-   .quoteTextBox  h1 {
-  font-style: italic;
+  .quoteTextBox h1 {
+    font-style: italic;
     // font-size: 1.4rem;
-}
-
-
   }
+}
