@@ -17,11 +17,13 @@ import sorveiv from "./sorveiv.jpg";
 import ted from "./TEDx-Youthbrum.png";
 import tw from "./TW.png";
 import keychange from "./keychange.png";
+import backgroundCollage from "./backgroundCollage.jpg";
 
 class Logos extends Component {
   render() {
     return (
       <div id="story" className="logos">
+         <img className="backgroundCollageBlue" src={backgroundCollage} alt="" />
         <div className="logosTextBoxContainer">
           <div className="logosTextBox">
             <div class="logos-flex-container">
@@ -78,15 +80,6 @@ class Logos extends Component {
                 <img className="the-logos" src={keychange} alt="" />
               </div>
             </div>
-            <p>
-              Shekayla Maragh is powered by Keychange - an international
-              campaign led by Reeperbahn Festival, PRS Foundation and
-              Musikcentrum Öst, supported by the Creative Europe Programme of
-              the European Union, in partnership with Tallinn Music Week,
-              Iceland Airwaves, BIME, Oslo World, Linecheck, Ireland Music Week,
-              SACEM, Liverpool Sound City, Way Out West, Spring Break, MAMA,
-              Mutek and Breakout West.”
-            </p>
           </div>
         </div>
       </div>

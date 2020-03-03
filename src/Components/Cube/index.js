@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import "./cube.scss";
+import backgroundCollage from "./backgroundCollage.jpg";
 
 class Cube extends Component {
   render() {
     return (
       <div id="cube" className="cube">
+          <img className="backgroundCollageBlue" src={backgroundCollage} alt="" />
         <div className="cubeTextBoxContainer">
           <div className="cubeTextBox">
             <h3>CUBE</h3>

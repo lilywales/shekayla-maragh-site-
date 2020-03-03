@@ -3,22 +3,38 @@
   display: flex;
   justify-content: center;
   height: 100vh;
-  // background-color: pink;
+  // background-image: url("background.jpg");
 }
 
 .homeArtwok {
   position: absolute;
-  height: 40vh;
-  // background-color: aqua;
-  width: 60vw;
+  left: 15%;
+  height: 50vh;
+  top: 0%;
+  
+}
+.collage1 {
+  position: relative;
+  height: 110%;
+  top:2%
+}
+
+.collage2 {
+  position: relative;
+  height: 120%;
+  top: 56%;
+}
+.collage3 {
+  position: relative;
+  height: 110%;
+  top:2%
 }
 
 .homeTitles {
   position: absolute;
   height: 40vh;
-  // background-color: red;
   width: 70vw;
-  top: 40%;
+  top: 60%;
 }
 
 .name {
@@ -35,36 +51,70 @@
 
 }
 
-.square {
-  position: absolute;
-  opacity: 0;
+// //ipad
+// @media only screen and (min-width: 769px) and (max-width: 992px) {
+//   .collage2 {
+//     height: 213%;
+// }
+// }
+
+//ipad
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  .homeArtwok {
+    height: 20vh;
+  }
+
+  .collage1 {
+    height: 144%;  
+  }
+  .collage2 {
+    height: 211%;
 }
+.collage3 {
 
-.r {
-  position: absolute;
-  opacity: 0;
+  top: 100%;
 }
-
-
-// small phones
-@media only screen and (max-width: 370px) {
-
   .homeTitles {
-    width: 78vw;
-  }
 
-  .role {
-    top: 17%;
+    top: 45.7%;
   }
+  .role {
+   
+    top: 18%;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 371px) and (max-width: 600px) {
+}
+
+//bigger phones
+@media only screen and (min-width: 0px) and (max-width: 414px) {
   .homeTitles {
     width: 80vw;
+    top: 47%;
   }
 
   .role {
     top: 18%;
   }
+  .homeArtwok {
+    height: 25vh;
+    left: 10%
+  }
+
+  .collage1 {
+    height: 115%;  
+    top: 0%;
+  }
+  .collage2 {
+    height: 182%;
+    top: -119%;
 }
+.collage3 {
+    height: 110%;
+  top: 72%;
+  left: 35%;
+}
+ 
+
+}
+
+

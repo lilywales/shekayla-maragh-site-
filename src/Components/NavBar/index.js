@@ -12,7 +12,7 @@ class NavBar extends Component {
   };
   render() {
     return (
-      <div>
+      <div style={{height:"0px"}}>
         <h4 className="menu">Menu</h4>
         <input id="burger" type="checkbox" style={{ opacity: "0" }} />
         <label for="burger">

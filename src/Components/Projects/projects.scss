@@ -2,16 +2,14 @@
   position: relative;
   display: flex;
   justify-content: center;
-
   height: 100vh;
-  // background-color: rgba(162, 191, 247,0.30);
+  // background-image: url("background.jpg");
 }
 
 .projectsTextBoxContainer {
   position: absolute;
   display: flex;
   justify-content: center;
-
   height: 75%;
   width: 93%;
   // background-color: rgba(255, 255, 255, 0.15);
@@ -21,7 +19,7 @@
   position: absolute;
   height: 80%;
   left: 9%;
-  margin-top: 8%;
+  margin-top: 10%;
 }
 
 .flex-container {
