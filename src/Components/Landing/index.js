@@ -9,7 +9,7 @@ class Landing extends Component {
   render() {
     return (
       <div className="container">
-        <div className="homeArtwok animated slideInUp">
+        <div className="homeArtwok">
           <img className="collage1" src={collage1} alt="" />
           <img className="collage2" src={collage2} alt="" />
           <img className="collage3" src={collage3} alt="" />
