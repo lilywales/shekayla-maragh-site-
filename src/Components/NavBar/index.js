@@ -10,12 +10,17 @@ class NavBar extends Component {
       behavior: "smooth"
     });
   };
+
+  onClick() {
+    this.refs.inputElement.checked = false
+  }
+
   render() {
     return (
       <div style={{height:"0px"}}>
         <h4 className="menu">Menu</h4>
-        <input id="burger" type="checkbox" style={{ opacity: "0" }} />
-        <label for="burger">
+        <input ref="inputElement" id="burger" type="checkbox" style={{ opacity: "0" }} />
+        <label htmlFor="burger">
           <span></span>
           <span></span>
           <span></span>
@@ -23,16 +28,16 @@ class NavBar extends Component {
         <nav>
           <ul>
             <li>
-              <a href="#story">Story so far</a>
+              <a onClick={ () => this.onClick() } href="#story">Story so far</a>
             </li>
             <li>
-              <a href="#cube">CUBE</a>
+              <a onClick={ () => this.onClick() } href="#cube">CUBE</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a onClick={ () => this.onClick() } href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a onClick={ () => this.onClick() } href="#contact">Contact</a>
             </li>
           </ul>
         </nav>

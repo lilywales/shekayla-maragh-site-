@@ -13,7 +13,7 @@ class Projects extends Component {
         <div className="projectsTextBoxContainer">
           <div className="projectsTextBox">
             <h3>Projects</h3>
-            <div class="flex-container">
+            <div className="flex-container">
               <div>
                 <img className="square" src={square} alt="" />
                 <p>
