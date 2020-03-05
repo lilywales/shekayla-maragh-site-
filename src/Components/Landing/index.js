@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import { ParallaxBanner, Parallax, Image } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax';
 import "./landing.scss";
 import collage1 from "./collage1.jpg";
 import collage2 from "./collage2.jpg";
@@ -10,9 +10,16 @@ class Landing extends Component {
     return (
       <div className="container">
         <div className="homeArtwok">
-          <img className="collage1" src={collage1} alt="" />
-          <img className="collage2" src={collage2} alt="" />
+          <Parallax y={[60, 0]} className='parallax-image'>
+            <img className="collage1" src={collage1} alt="" />
+          </Parallax>
+
+          <Parallax y={[100, 0]} className='parallax-image'>
+            <img className="collage2" src={collage2} alt="" />
+          </Parallax>
+
           <img className="collage3" src={collage3} alt="" />
+
         </div>
         <div className="homeTitles">
           <h1 className="name animated slideInUp">Shekayla Maragh </h1>
