@@ -9,9 +9,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <Router>
-   <ParallaxProvider>
-    <App />
-     </ParallaxProvider>
+    <ParallaxProvider>
+      <App />
+    </ParallaxProvider>
   </Router>,
   document.getElementById('root'));
 

@@ -26,7 +26,7 @@ class Logos extends Component {
          <img className="backgroundCollageBlue" src={backgroundCollage} alt="" />
         <div className="logosTextBoxContainer">
           <div className="logosTextBox">
-            <div class="logos-flex-container">
+            <div className="logos-flex-container">
               <div>
                 <img className="the-logos" src={cube} alt="" />
               </div>
