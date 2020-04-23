@@ -7,7 +7,6 @@ import backgroundCollage from "./backgroundCollage.jpg";
 class Story extends Component {
   render() {
     return (
-      
       <div id="story" className="story">
           <img className="backgroundCollageBlue" src={backgroundCollage} alt="" />
         <div className="storyTextBoxContainer">

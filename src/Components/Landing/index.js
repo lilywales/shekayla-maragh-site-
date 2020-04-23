@@ -22,7 +22,7 @@ class Landing extends Component {
           <Parallax y={[-10, -20]} className='parallax-image'>
             <img className="collage1S" src={collage1} alt="" />
           </Parallax>
-          <Parallax y={[150, 5]} className='parallax-image'>
+          <Parallax y={[130, 0]} className='parallax-image'>
             <img className="collage2S" src={collage2} alt="" />
           </Parallax>
            <img className="collage3S" src={collage3} alt="" />
