@@ -3,34 +3,38 @@
   display: flex;
   justify-content: center;
   height: 100vh;
-  // background-image: url("background.jpg");
+
 }
 
 .parallax-image {
   display: inline-block;
+
 }
 
 .homeArtwok {
   position: absolute;
   left: 15%;
   height: 50vh;
-  top: 0%;
-  
+  width: 85%;
+  top: 3%;
+  display: inline;
 }
+
 .collage1 {
   position: relative;
-  height: 110%;
+  height: 380px;
   top:2%
 }
 
 .collage2 {
   position: relative;
-  height: 120%;
+  height: 390px;
   top: 56%;
 }
+
 .collage3 {
   position: relative;
-  height: 110%;
+  height: 300px;
   top:2%
 }
 
@@ -55,69 +59,119 @@
 
 }
 
-// //ipad
-// @media only screen and (min-width: 769px) and (max-width: 992px) {
-//   .collage2 {
-//     height: 213%;
-// }
-// }
-
-//ipad
-@media only screen and (min-width: 415px) and (max-width: 768px) {
-  .homeArtwok {
-    height: 20vh;
-  }
-
-  .collage1 {
-    height: 144%;  
-  }
-  .collage2 {
-    height: 211%;
-}
-.collage3 {
-
-  top: 100%;
-}
-  .homeTitles {
-
-    top: 45.7%;
-  }
-  .role {
-   
-    top: 18%;
+.homeArtwokSmall {
+  position: absolute;
+  display: none;
+  height: 50vh;
+  width: 100%;
+  top: 20%;
 }
 
+.collage1S {
+  position: relative;
+  height: 140px;
+  top:2%
 }
 
-//bigger phones
-@media only screen and (min-width: 0px) and (max-width: 414px) {
+.collage2S {
+  position: relative;
+  height: 165px;
+}
+
+.collage3S {
+  position: relative;
+  height: 130px;
+  top:2%
+}
+
+
+//ipads
+@media only screen and (min-width:  768px) and (max-width: 991px) {
   .homeTitles {
     width: 80vw;
-    top: 47%;
+    top: 67%;
   }
 
   .role {
     top: 18%;
   }
+
   .homeArtwok {
-    height: 25vh;
-    left: 10%
+   display: none;
   }
 
-  .collage1 {
-    height: 115%;  
-    top: 0%;
+  .homeArtwokSmall {
+    display: inline;
+    top: 15%;
   }
-  .collage2 {
-    height: 182%;
-    top: -119%;
-}
-.collage3 {
-    height: 110%;
-  top: 72%;
-  left: 35%;
-}
  
+  .collage1S {
+    height: 350px;
+  }
+  
+  .collage2S {
+    height: 355px;
+  }
+
+  .collage3S {
+    height: 293px;
+  }
+
+} 
+
+//bigger phones
+@media only screen and (min-width: 361px) and (max-width: 767px) {
+ .homeTitles {
+    width: 80vw;
+    top: 67%;
+  }
+
+  .role {
+    top: 18%;
+  }
+
+  .homeArtwok {
+   display: none;
+  }
+
+  .homeArtwokSmall {
+    display: inline;
+    top: 15%; 
+  }
+ 
+  .collage1S {
+    height: 160px
+  }
+
+  .collage2S {
+    height: 215px;
+  }
+
+  .collage3S {
+    height: 153px;
+  }
+
+}
+
+//small phones
+@media only screen and (min-width: 0px) and (max-width: 360px) {
+
+  .homeTitles {
+    width: 80vw;
+    top: 67%;
+  }
+
+  .role {
+    top: 18%;
+  }
+
+  .homeArtwok {
+   display: none;
+  }
+
+  .homeArtwokSmall {
+    display: inline;
+  }
 
 }
 

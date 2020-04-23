@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import "./story.scss";
 import email from "./email.png";
 import insta from "./insta.png";
-import background from "./background.jpg";
-import backgroundCollageBlue from "./backgroundCollageBlue.jpg";
 import backgroundCollage from "./backgroundCollage.jpg";
 
 class Story extends Component {

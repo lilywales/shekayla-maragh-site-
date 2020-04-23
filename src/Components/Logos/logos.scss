@@ -3,19 +3,17 @@
     display: flex;
     justify-content: center;
     top: 100%;
-    height: 65vh;
-      background-color: rgba(162, 191, 247,0.30);
+    height: 100vh;
   }
 
 .logosTextBoxContainer {
   position: absolute;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   top:15%;
-  height: 80%;
+  height: 60%;
   width: 80%;
   background-color: rgba(28, 239, 247, 0.925);
-
 }
 
 .logosTextBox{
@@ -23,53 +21,80 @@
   height: 80%;
   width: 90%;
   margin-top: 7%;
-    font-style: italic;
-
-
 }
 
 .logos-flex-container {
   display: flex;
   flex-wrap: wrap;
-
-
-
 }
 
 .logos-flex-container > div {
-  // background-color: black;
-
   width: 100px;
-
   margin: 15px;
   text-align: center;
   line-height: 75px;
-
 }
 
 .the-logos {
-
   height: 50px;
 }
 
-//small phones
-@media only screen and (max-width: 600px) {
-  .logos-flex-container > div {
+.contactBox {
+  position: absolute;
+  height: 15%;
+  width: 100%;
+  top:80%;
+  display: flex;
+  background-color: black;
 
+}
+
+.contactTextBox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 5%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+ .contactBox h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+//phones
+@media only screen and (max-width: 415px) {
+
+  .logos-flex-container > div {
     width: 45px;
     margin: 4px;
-
     line-height: 20px;
-
   }
 
-
-
-
   .the-logos {
-
     height: 20px;
   }
 
+  .contactBox h1 {
+    font-size: 0.8rem;
+  }
 
+  .logosTextBoxContainer {
+    height: 34%;
+  }
+
+  .quoteTextBox {
+    height: 31%;
+    top: 31%;
+}
+
+}
+
+@media only screen and (min-width: 416px) and (max-width: 767px) {
+
+.quoteTextBox {
+  top: 14%;
+}
 }

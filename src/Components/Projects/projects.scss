@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   height: 100vh;
-  // background-image: url("background.jpg");
+
 }
 
 .projectsTextBoxContainer {
@@ -12,76 +12,163 @@
   justify-content: center;
   height: 75%;
   width: 93%;
+
   // background-color: rgba(255, 255, 255, 0.15);
 }
 
 .projectsTextBox {
   position: absolute;
+  // background-color: grey;
   height: 80%;
+  width: 85%;
   left: 9%;
   margin-top: 10%;
 }
 
-.flex-container {
+.projects-flex-container {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+  // background-color: yellow;
+
+  display: flex;
+    flex-wrap: wrap;
+  
+
+
+}
+ 
+
+.projects-flex-container {
+
   display: flex;
   flex-wrap: wrap;
 }
 
-.flex-container > div {
-  width: 20%;
-  margin: 5px;
-  text-align: left;
 
-  overflow: wrap;
-}
 
-.flex-container a:hover {
-  color: white;
-  cursor: auto;
-}
 
-.flex-container a {
-  font-weight: 400;
-}
 
-.flex-container .square,
-.j,
-.m,
-.q {
+.projects-flex-container > div {
   position: relative;
-  width: 98%;
+  height: 40%;
+  width: auto;
+  margin: 15px;
+  left: -1%;
+  overflow: wrap;
+  
+  text-align: center;
+
+
+}
+
+
+// .project-container {
+//   position: relative;
+//   height: 20%;
+
+  
+// }
+
+.image {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(28, 239, 247, 0.925);
+}
+
+.container:hover .overlay {
   opacity: 1;
 }
 
+.text  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text p {
+  color: white;
+}
+
+
 @media only screen and (max-width: 600px) {
-  .flex-container > div {
-    // background-color: rgb(255, 194, 232);
-    width: 40%;
-    margin: 3px;
+  .projects-flex-container > div {
+    
+    height: 25%;
+    margin: 5px;
+    left: -2%;
+ 
+  
+  
   }
   .projectsTextBox {
     margin-top: 16%;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .flex-container > div {
-    // background-color: rgb(255, 194, 232);
-    width: 40%;
-    margin: 3px;
-  }
-  .projectsTextBox {
-    margin-top: 16%;
+@media only screen and (min-width: 992px)and (max-width: 1390px)  {
+
+  .projects-flex-container > div {
+    
+    height: 35%;
+    margin: 5px;
+    left: -2%;
+ 
+  
+  
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  .flex-container > div {
-    // background-color: rgb(255, 194, 232);
-    width: 40%;
-    margin: 3px;
-  }
-  .projectsTextBox {
-    margin-top: 8%;
+@media only screen and (min-width: 601px)and (max-width: 991px)  {
+
+  .projects-flex-container > div {
+    
+    height: 25%;
+   
+ 
+  
+  
   }
 }
+
+
+// @media only screen and (max-width: 600px) {
+//   .flex-container > div {
+//     // background-color: rgb(255, 194, 232);
+//     width: 0%;
+//     margin: 3px;
+//   }
+//   .projectsTextBox {s
+//     margin-top: 16%;
+//   }
+// }
+
+
+// @media only screen and (min-width: 601px) and (max-width: 768px) {
+//   .flex-container > div {
+//     // background-color: rgb(255, 194, 232);
+//     width: 40%;
+//     margin: 3px;
+//   }
+//   .projectsTextBox {
+//     margin-top: 8%;
+//   }
+// }

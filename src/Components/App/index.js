@@ -19,10 +19,7 @@ class App extends Component {
     return (
       <div >
       <NavBar/>
-
-
         <Landing/>
-
         <Story/>
         <Quote/>
         <Cube/>

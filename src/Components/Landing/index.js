@@ -10,16 +10,22 @@ class Landing extends Component {
     return (
       <div className="container">
         <div className="homeArtwok">
-          <Parallax y={[60, 0]} className='parallax-image'>
+          <Parallax y={[-10, -20]} className='parallax-image'>
             <img className="collage1" src={collage1} alt="" />
           </Parallax>
-
           <Parallax y={[100, 0]} className='parallax-image'>
             <img className="collage2" src={collage2} alt="" />
           </Parallax>
-
-          <img className="collage3" src={collage3} alt="" />
-
+           <img className="collage3" src={collage3} alt="" />
+        </div>
+        <div className="homeArtwokSmall">
+          <Parallax y={[-10, -20]} className='parallax-image'>
+            <img className="collage1S" src={collage1} alt="" />
+          </Parallax>
+          <Parallax y={[150, 5]} className='parallax-image'>
+            <img className="collage2S" src={collage2} alt="" />
+          </Parallax>
+           <img className="collage3S" src={collage3} alt="" />
         </div>
         <div className="homeTitles">
           <h1 className="name animated slideInUp">Shekayla Maragh </h1>

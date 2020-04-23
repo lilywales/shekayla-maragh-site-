@@ -14,36 +14,68 @@ import "./projects.scss";
 class Projects extends Component {
   render() {
     return (
-      <div id="projects" className="projects">
-        
+      <div id="projects" className="projects"> 
         <div className="projectsTextBoxContainer">
           <div className="projectsTextBox">
             <h3> Projects </h3>{" "}
-            <div className="flex-container">
-              <div>
-                <img className="j" src={ameriie} alt="" />
-              </div>{" "}
-              <div>
-                <img className="j" src={diaspora} alt="" />
-              </div>{" "}
-              <div>
-                <img className="j" src={glasto} alt="" />
-              </div>{" "}
-              <div>
-                <img className="m" src={jordan} alt="" />
+          <div className="projects-flex-container">
+                <div class="container the-projects">
+                <img className="projectImage image the-projects" src={ameriie} alt="" />
+               <div class="overlay">
+                 <div class="text"><p>Ameriie Tour</p></div>
+               </div>
               </div>
-              <div>
-                <img className="q" src={loudSide} alt="" />
-              </div>{" "}
-              <div>
-                <img className="j" src={loudBhangra} alt="" />
+              <div class="container the-projects">
+                <img className="projectImage image the-projects" src={diaspora} alt="" />
+                <div class="overlay">
+                   <div class="text"><p>Diaspora Britain</p></div>
+                </div>
               </div>
-              <div>
-                <img className="j" src={ines} alt="" />
-              </div>{" "}
-              <div>
-                <img className="j" src={tourAme} alt="" />
+              <div class="container the-projects">
+              <img className="projectImage image the-projects" src={glasto} alt="" />
+                <div class="overlay">
+                   <div class="text"><p>Glastonbury</p></div>
+                </div>
               </div>
+              <div class="container the-projects">
+              <img className="projectImage image the-projects" src={jordan} alt="" />
+                <div class="overlay">
+                   <div class="text"><p>Jordan Mackampa</p></div>
+                </div>
+              </div>
+              <div class="container the-projects">
+              <img className="projectImage image the-projects" src={loudSide} alt="" />
+                <div class="overlay">
+                   <div class="text"><p>Live and Loud Sideman</p></div>
+                </div>
+              </div>
+              <div class="container the-projects">
+              <img className="projectImage image the-projects" src={loudBhangra} alt="" />
+                <div class="overlay">
+                   <div class="text"><p>Live and Loud Bhangra</p></div>
+                </div>
+              </div>
+              <div class="container" the-projects>
+              <img className="projectImage image the-projects" src={ines} alt="" />
+                <div class="overlay">
+                   <div class="text"><p>Diaspora Britain</p></div>
+                </div>
+              </div>
+              <div class="container ">
+              <img className="projectImage image the-projects" src={tourAme} alt="" />
+                <div class="overlay">
+                   <div class="text"><p>Punch tour Ameriie</p></div>
+                </div>
+              </div>
+            
+            <div>
+              
+            
+            
+            
+            </div>{" "}
+             
+             
             </div>{" "}
           </div>{" "}
         </div>{" "}

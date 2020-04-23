@@ -119,31 +119,45 @@ a:hover,
   z-index: 2;
 }
 
-//small phones
+//phones
 @media only screen and (max-width: 600px) {
   input + label span {
     height: 2px;
-    width: 19px;
+    width: 22px;
     top: 29%;
   }
   input + label {
     right: 0%;
   }
+
+  input ~ nav > ul > li > a {
+   
+    font-size: 1.5rem;
+   
+}
+input ~ nav > ul {
+  left: 5%;
+}
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 371px) {
-  .menu p {
-    top: 6%;
-    right: 2%;
-    font-size: 0.5rem;
-  }
-}
+// /* Small devices (portrait tablets and large phones, 600px and up) */
+// @media only screen and (max-width: 371px) {
+//   .menu p {
+//     top: 6%;
+//     right: 2%;
+//     font-size: 0.8rem;
+//   }
+  
+//   a {
+//     font-size: 0.5rem;
+//   }
+// }
 
-@media only screen and (min-width: 372px) and (max-width: 599px) {
+@media only screen and (min-width: 360px) and (max-width: 599px) {
   .menu {
     top: 6%;
-    right: 2%;
-    font-size: 0.5rem;
+    right: 3.4%;
+    font-size: 0.6rem;
   }
+ 
 }

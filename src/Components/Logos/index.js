@@ -23,8 +23,10 @@ class Logos extends Component {
   render() {
     return (
       <div id="story" className="logos">
-         <img className="backgroundCollageBlue" src={backgroundCollage} alt="" />
+        
+        <img className="backgroundCollageBlue" src={backgroundCollage} alt="" />
         <div className="logosTextBoxContainer">
+
           <div className="logosTextBox">
             <div className="logos-flex-container">
               <div>
@@ -81,6 +83,14 @@ class Logos extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="contactBox">
+        
+          <div className="contactTextBox">
+          <h1 class="quoteTextBox">
+          shekayla.m@me.com 
+          </h1>
+        </div>
         </div>
       </div>
     );
