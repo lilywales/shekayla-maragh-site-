@@ -10,7 +10,7 @@ class Landing extends Component {
     return (
       <div className="container">
         <div className="homeArtwok">
-          <Parallax y={[-10, -20]} className='parallax-image'>
+          <Parallax y={[-40, -20]} className='parallax-image'>
             <img className="collage1" src={collage1} alt="" />
           </Parallax>
           <Parallax y={[100, 0]} className='parallax-image'>
@@ -19,7 +19,7 @@ class Landing extends Component {
            <img className="collage3" src={collage3} alt="" />
         </div>
         <div className="homeArtwokSmall">
-          <Parallax y={[-10, -20]} className='parallax-image'>
+          <Parallax y={[-10, -50]} className='parallax-image'>
             <img className="collage1S" src={collage1} alt="" />
           </Parallax>
           <Parallax y={[130, 0]} className='parallax-image'>
